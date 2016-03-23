@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+.chat-container__form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+.chat-container__form input { border: 0; padding: 10px; width: 80%; margin-right: .5%; }
+.chat-container__form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+#imageButton { width: 9%;}
+#imageFile { display: none; }
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+.chat-container {
+  display: none;
+  height: 100vh;
+}
+.chat-container__messages {
+  overflow-y: scroll;
+  height: inherit;
+}
+.username-container { 
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.username-container__group {
+  display: block;
+  text-align: center;
+}
+.username-container__input{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

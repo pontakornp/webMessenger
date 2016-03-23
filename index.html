@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Web Messenger</title>
+    <link rel="stylesheet" href="/scripts/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-container__messages">
+        <ul id="messages"></ul>
+      </div>
+      <form class="chat-container__form" action="">
+        <input type="file" name="imageFile" id="imageFile">
+        <input id="m" autocomplete="off" />
+        <input type="button" id="imageButton" value="Select Image"/>
+        <button>Send</button>
+      </form>
+    </div>
+    <div class="username-container">
+        <div class="username-container__group" >
+          <h1>Tell Us Your Username</h1>
+          <input type="text" class="username-container__input form-control" placeholder="Username"></input>
+          <button class="btn btn-info btn-block username-container__submit">Enter</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/scripts/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
