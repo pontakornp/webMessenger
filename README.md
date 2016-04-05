@@ -1,6 +1,6 @@
 # web_messenger
 
-1. Clone the project from bitbucket: git@bitbucket.org:pontakornp/webmessenger.git
+1. Clone the project: git@github.com:pontakornp/web_messenger.git
 2. Install node.js, XAMPP, phpmyadmin, and MySQL
 3. Import webmessenger.sql (from /webmessenger directory) in phpmyadmin to create a database and some transactions
 4. Run MySQL in XAMPP
